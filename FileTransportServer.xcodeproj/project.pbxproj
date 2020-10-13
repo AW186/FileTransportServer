@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8E534A892515C536009B047E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E534A882515C536009B047E /* main.cpp */; };
+		8E534A972515C641009B047E /* ClientTask.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E534A902515C55D009B047E /* ClientTask.hpp */; };
+		8E534A982515C641009B047E /* ServerTask.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E534A912515C55D009B047E /* ServerTask.hpp */; };
+		8E534A992515C641009B047E /* Sockets.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E534A922515C55D009B047E /* Sockets.hpp */; };
+		8E534A9A2515C641009B047E /* Sockets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E534A942515C55D009B047E /* Sockets.cpp */; };
+		8E534A9B2515C641009B047E /* ClientTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E534A952515C55D009B047E /* ClientTask.cpp */; };
+		8E534A9C2515C641009B047E /* ServerTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E534A962515C55D009B047E /* ServerTask.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,13 @@
 /* Begin PBXFileReference section */
 		8E534A852515C536009B047E /* FileTransportServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FileTransportServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E534A882515C536009B047E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8E534A902515C55D009B047E /* ClientTask.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClientTask.hpp; sourceTree = "<group>"; };
+		8E534A912515C55D009B047E /* ServerTask.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ServerTask.hpp; sourceTree = "<group>"; };
+		8E534A922515C55D009B047E /* Sockets.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sockets.hpp; sourceTree = "<group>"; };
+		8E534A932515C55D009B047E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8E534A942515C55D009B047E /* Sockets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sockets.cpp; sourceTree = "<group>"; };
+		8E534A952515C55D009B047E /* ClientTask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClientTask.cpp; sourceTree = "<group>"; };
+		8E534A962515C55D009B047E /* ServerTask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ServerTask.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +71,23 @@
 			isa = PBXGroup;
 			children = (
 				8E534A882515C536009B047E /* main.cpp */,
+				8E534A8F2515C55D009B047E /* SocketTask-master */,
 			);
 			path = FileTransportServer;
+			sourceTree = "<group>";
+		};
+		8E534A8F2515C55D009B047E /* SocketTask-master */ = {
+			isa = PBXGroup;
+			children = (
+				8E534A902515C55D009B047E /* ClientTask.hpp */,
+				8E534A912515C55D009B047E /* ServerTask.hpp */,
+				8E534A922515C55D009B047E /* Sockets.hpp */,
+				8E534A932515C55D009B047E /* README.md */,
+				8E534A942515C55D009B047E /* Sockets.cpp */,
+				8E534A952515C55D009B047E /* ClientTask.cpp */,
+				8E534A962515C55D009B047E /* ServerTask.cpp */,
+			);
+			path = "SocketTask-master";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E534A972515C641009B047E /* ClientTask.hpp in Sources */,
+				8E534A982515C641009B047E /* ServerTask.hpp in Sources */,
+				8E534A992515C641009B047E /* Sockets.hpp in Sources */,
+				8E534A9A2515C641009B047E /* Sockets.cpp in Sources */,
+				8E534A9B2515C641009B047E /* ClientTask.cpp in Sources */,
+				8E534A9C2515C641009B047E /* ServerTask.cpp in Sources */,
 				8E534A892515C536009B047E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
